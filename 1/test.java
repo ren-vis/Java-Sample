@@ -1,4 +1,3 @@
-package com.journaldev.threads;
 
 class test {
 
