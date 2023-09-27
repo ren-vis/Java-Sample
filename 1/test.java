@@ -1,3 +1,5 @@
+package com.journaldev.threads;
+
 class test {
 
   public static void main(String[] args) {
@@ -8,5 +10,10 @@ class test {
     // add two numbers
     int sum = first + second;
     System.out.println(first + " + " + second + " = "  + sum);
+    
+    for (int i = 0; i < 5; i++) {
+         System.out.println(i);
+         Thread.sleep(2000);
+    }
   }
 }
