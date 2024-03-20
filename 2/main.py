@@ -1,0 +1,1 @@
+print("Download from FTP snippet")
